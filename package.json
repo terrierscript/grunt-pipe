@@ -1,6 +1,6 @@
 {
   "name": "grunt-pipe",
-  "description": "PSimple file pipe process",
+  "description": "Simple file pipe process in gruntjs",
   "version": "0.1.0",
   "homepage": "https://github.com/suisho/grunt-pipe",
   "author": {

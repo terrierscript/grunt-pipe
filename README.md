@@ -1,6 +1,6 @@
 # grunt-pipe
 
-> PSimple file pipe process
+> Simple file pipe process
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
