@@ -1,0 +1,44 @@
+{
+  "name": "grunt-pipe",
+  "description": "PSimple file pipe process",
+  "version": "0.1.0",
+  "homepage": "https://github.com/suisho/grunt-pipe",
+  "author": {
+    "name": "suisho"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suisho/grunt-pipe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suisho/grunt-pipe/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/suisho/grunt-pipe/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "cheerio": "~0.12.2"
+  }
+}

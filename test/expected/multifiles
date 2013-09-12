@@ -1,0 +1,4 @@
+filepath:test/fixtures/foo
+content:foobazbar
+filepath:test/fixtures/dom_mode
+content:<div>foo<div>baz</div></div>
