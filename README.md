@@ -120,6 +120,7 @@ dom_mode: {
     'tmp/dom_mode': 'test/fixtures/dom_mode'
   },
 },
+````
 
 #### Multiple sources.
 Multiple source file sample.
