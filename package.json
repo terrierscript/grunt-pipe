@@ -39,6 +39,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "cheerio": "~0.12.2"
+    "cheerio": "^0.22.0"
   }
 }
