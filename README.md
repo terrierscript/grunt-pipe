@@ -1,3 +1,6 @@
+> **Warning**
+> This project is not maintained
+
 # grunt-pipe
 
 > Simple file pipe process
