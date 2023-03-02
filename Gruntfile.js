@@ -44,12 +44,24 @@ module.exports = function(grunt) {
         options: {
           domMode : true,
           process : function($, filepath, grunt){
-            $("div").attr("foo","baz");
+            $('div').attr('foo','baz');
             return $.html();
           }
         },
         files: {
           'tmp/dom_mode': 'test/fixtures/dom_mode'
+        },
+      },
+      dom_mode_body: {
+        options: {
+          domMode : true,
+          process : function($, filepath, grunt){
+            $('div').attr('foo','baz');
+            return $('body').html();
+          }
+        },
+        files: {
+          'tmp/dom_mode_body': 'test/fixtures/dom_mode_body'
         },
       },
       ignore_empty: {

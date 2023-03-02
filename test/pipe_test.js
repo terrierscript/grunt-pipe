@@ -45,6 +45,15 @@ exports.pipe = {
 
     test.done();
   },
+  dom_mode_body: function(test) {
+    test.expect(1);
+
+    var actual = grunt.file.read('tmp/dom_mode_body');
+    var expected = grunt.file.read('test/expected/dom_mode_body');
+    test.equal(actual, expected, 'should describe what the custom option(s) behavior is.');
+
+    test.done();
+  },
   ignore_empty: function(test) {
     test.expect(1);
     test.ok(!fs.existsSync("tmp/ignore_empty"));
@@ -61,7 +70,7 @@ exports.pipe = {
   },
   multifiles: function(test) {
     test.expect(1);
-    
+
     var actual = grunt.file.read('tmp/multifiles');
     var expected = grunt.file.read('test/expected/multifiles');
     test.equal(actual, expected, 'should describe what the custom option(s) behavior is.');

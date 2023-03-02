@@ -57,7 +57,7 @@ module.exports = function(grunt) {
         }
         dests.push(dest);
       });
-      
+
 
       // Write the destination file.
       var destJoined = dests.join("");
@@ -68,7 +68,7 @@ module.exports = function(grunt) {
       grunt.file.write(f.dest, destJoined);
       // Print a success message.
       grunt.log.writeln('File "' + f.dest + '" created.');
-    
+
     });
   });
 
