@@ -29,7 +29,7 @@
   "devDependencies": {
     "grunt-contrib-jshint": "^3.0.0",
     "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-nodeunit": "^4.0.0",
+    "grunt-contrib-nodeunit": "^5.0.0",
     "grunt": "^1.0.0"
   },
   "peerDependencies": {
